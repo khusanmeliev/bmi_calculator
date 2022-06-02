@@ -1,0 +1,79 @@
+*,body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .box{
+    width: 35%;
+    height: 80%;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .box .title{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.container .box form{
+    width: 85%;
+    height: 55%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .box form .inputs{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+.container .box form .inputs input{
+    width: 100%;
+    height: 20%;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+.container .box form .btn{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .box form .btn button{
+    width: 100%;
+    height: 40%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container .box .result{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+/* .container .box .result */
